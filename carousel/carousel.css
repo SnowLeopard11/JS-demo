@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 100px;
+    overflow: hidden;
+}
+
+#list{
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    z-index: 1;
+}
+
+#list img{
+    float: left;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+/* 设置原点按钮 */
+#button{
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    z-index: 2;
+    bottom: 10px;
+    margin-left: 20% ;
+}
+
+#button span{
+    cursor: pointer;
+    float: left;
+    border: 1px solid #D0CDCB;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    margin-left: 20px;
+    background-color: #D0CDCB;
+}
+
+#button span:hover{
+    background-color: #EF8843;
+}
+
+#button .on{
+    background-color: #EF8843;
+}
+
+/* 设置左右图标 */
+.arrow{
+    cursor: pointer;
+    line-height: 70px;
+    text-align: center;
+    font-size: 30px;
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    color: #ECEAEA; 
+}
+
+.arrow:hover{
+    background-color: #888888;
+}
+
+#left{
+    transform: translateY(-50%);
+    left: 5px;
+}
+
+#right{
+    transform: translateY(-50%);
+    right: 5px;
+}
+
+

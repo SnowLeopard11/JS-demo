@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./carousel.css">
+    <link rel="stylesheet" href="../index/index.css">
+</head>
+<body>
+    <div id="app">
+        <section class="content-wrapper">
+            <!-- 左侧导航栏 -->
+            <ul class="menu">
+               <li class="submenu">
+                   <div class="submenu-title item">组件列表
+                    <i class="icon">&gt;</i>
+                   </div>
+                   <ul class="menulist">
+                       <li class="item">首页</li>
+                       <li class="item">1.轮播图</li>
+                       <li class="item">2.搜索过滤</li>
+                       <li class="item">3.瀑布流</li>
+                       <li class="item">4.</li>
+                   </ul>
+               </li>
+            </ul>
+    
+            <div class="wrapper">
+                <div class="content">
+                    <div class="title">
+                        <h2>名称</h2>
+                        <p>功能</p>
+                    </div>
+                    <div class="code-box">
+                        <div id="container">
+        
+                            <div id="list" style="left: 0px">
+                                <img src="./assets/1.jpg" alt="">
+                                <img src="./assets/2.jpg" alt="">
+                                <img src="./assets/3.jpg" alt="">
+                                <img src="./assets/4.jpg" alt="">
+                            </div>
+                        
+                        <div id="button">
+                            <span index="1" class="on"></span>
+                            <span index="2"></span>
+                            <span index="3"></span>
+                            <span index="4"></span>
+                        </div>
+                
+                        <div class="arrow" id="left">&lt;</div>
+                        <div class="arrow"  id="right">&gt;</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    
+    <script src="./carousel.js"></script>
+</body>
+</html>
